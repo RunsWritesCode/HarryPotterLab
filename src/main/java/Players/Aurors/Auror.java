@@ -1,11 +1,12 @@
 package Players.Aurors;
 
 import MagicalCreatures.Basilisk;
+import Players.Healers.IHeal;
 import Players.IAttack;
 import Players.IDamage;
 
 
-public abstract class Auror implements IAttack, IDamage {
+public abstract class Auror implements IAttack, IDamage, IHeal {
     private int healthValue;
     private int attackValue;
     private String wandType;

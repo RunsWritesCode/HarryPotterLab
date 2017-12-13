@@ -1,9 +1,9 @@
 package MagicalCreatures;
 
-import Players.Healers.IHeal;
 
 
-public class Phoenix extends MagicalCreature implements IHeal {
+
+public class Phoenix extends MagicalCreature {
 
     private int healPower;
 

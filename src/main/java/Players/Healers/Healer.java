@@ -1,6 +1,8 @@
 package Players.Healers;
 
-public abstract class Healer {
+import Players.Aurors.Wizard;
+
+public abstract class Healer implements IHeal {
 
     private Potion potion;
     private Herb herb;
@@ -10,6 +12,10 @@ public abstract class Healer {
         this.potion = potion;
         this.herb = herb;
         this.healPower = healPower;
+    }
+
+    public int heal(int healPower) {
+        return healPower;
     }
 
 }

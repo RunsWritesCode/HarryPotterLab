@@ -9,4 +9,8 @@ public class Wizard extends Auror implements IAttack, IDamage {
     }
 
 
+
+    public int heal(int healPower) {
+        return 100;
+    }
 }
